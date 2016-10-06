@@ -46,3 +46,5 @@ crashlytics-build.properties
 fabric.properties
 
 .gitignore
+.DS_Store
+fonts/.DS_Store

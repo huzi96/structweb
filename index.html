@@ -9,10 +9,10 @@
 
 	<!-- Favicons
 		================================================== -->
-	<!--<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">-->
-	<!--<link rel="apple-touch-icon" href="img/apple-touch-icon.png">-->
-	<!--<link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">-->
-	<!--<link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">-->
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
 
 	<!-- Bootstrap -->
     <!--<link rel="stylesheet" type="text/css" href="css/materialize.min.css">-->
@@ -29,6 +29,8 @@
 	<link rel="stylesheet" type="text/css"  href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/prettyPhoto.css">
 	<link rel="stylesheet" type="text/css" href="css/custom.css">
+    <!--<link rel="stylesheet" type="text/css" href="fonts/Lato/Lato/latofonts.css">-->
+    <!--<link rel="stylesheet" type="text/css" href="fonts/open-sans/web%20fonts/opensans_regular_macroman/stylesheet.css">-->
 <!--<link href='http://fonts.useso.com/css?family=Lato:400,700,900,300' rel='stylesheet' type='text/css'>-->
 <!--<link href='http://fonts.useso.com/css?family=Open+Sans:400,700,800,600,300' rel='stylesheet' type='text/css'>-->
 </head>
@@ -53,26 +55,14 @@
 						<a href="#page-top"></a>
 					</li>
 					<li>
-						<a class="page-scroll" href="">News</a>
+						<a class="page-scroll" href="#news">News</a>
 					</li>
-					<li>
-						<a class="page-scroll" href="">Research</a>
-					</li>
-					<li>
-						<a class="page-scroll" href="">Projects</a>
-					</li>
-					<li>
-						<a class="page-scroll" href="">People</a>
-					</li>
-					<li>
-						<a class="page-scroll" href="">Talks</a>
-					</li>
-					<li>
-						<a class="page-scroll" href="">Publication</a>
-					</li>
-					<li>
-						<a class="page-scroll" href="">MISC</a>
-					</li>
+                    <li><a href="../Research.html">Research</a></li>
+                    <li><a href="../Projects.html">Projects</a></li>
+                    <li><a href="../People.html">People</a></li>
+                    <li><a href="../Talks.html">Talks</a></li>
+                    <li><a href="../Publication.html">Publication</a></li>
+                    <li><a href="../MISC.html">MISC</a></li>
 				</ul>
 			</div>
 			<!-- /.navbar-collapse -->
@@ -108,57 +98,43 @@
         </div>
 	</div>
 
-    <div class="news-session">
+    <div class="news-session" id="news">
         <div class="container">
+            <div class="section-title text-center center">
+                <h2>NEWS</h2>
+                <hr>
+            </div>
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1">
-                    <div class="news-container">
-                        <div class="news-header">
-                            <h1>NEWS</h1>
-                        </div>
-                        <div class="news-item">
-                            <span class="news-text">
-                                This is a piece of news
-                            </span>
-                        </div>
-                        <div class="news-item">
-                            <span class="news-text">
-                                This is a another piece of news
-                            </span>
-                        </div>
-                    </div>
+                        <table class="news-container">
+
+                            <tr class="news-item" >
+                                <td class="news-text"><span class="glyphicon glyphicon-heart" aria-hidden="true"></span></td>
+                                <td class="news-text" width="150px">
+                                    <strong> September 7, 2016 </strong>
+                                </td>
+                                <td class="news-text">
+                                    Congratulations to Sijie Song for winning the
+                                    2016 Wang Xuan Scholarship of the Institute of Computer Science & Technology of Peking
+                                    University!
+                                </td>
+                            </tr>
+                            <tr class="news-item">
+                                <td class="news-text"><span class="glyphicon glyphicon-heart" aria-hidden="true"></span></td>
+                                <td class="news-text" width="150px">
+                                    <strong>August 9, 2016</strong>
+                                </td>
+                                <td class="news-text">
+                                    Congratulations to Shihong Deng for his paper, "Autoregressive Image Interpolation
+                                    via Context Modeling and Multiplanar Constraint", being accepted by VCIP, 2016!
+                                </td>
+                            </tr>
+                        </table>
                 </div>
             </div>
         </div>
     </div>
 
-    <div id="services" class="text-center hidden">
-      <div class="container">
-        <div class="section-title center">
-          <h2>Our <strong>Services</strong></h2>
-          <hr>
-          </div>
-        <div class="space"></div>
-        <div class="row">
-          <div class="col-md-3 col-sm-6 service"> <i class="fa fa-laptop"></i>
-            <h4><strong>Web Design</strong></h4>
-            <p>Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam.</p>
-          </div>
-          <div class="col-md-3 col-sm-6 service"> <i class="fa fa-code"></i>
-            <h4><strong>Development</strong></h4>
-            <p>Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque.</p>
-          </div>
-          <div class="col-md-3 col-sm-6 service"> <i class="fa fa-rocket"></i>
-            <h4><strong>Branding</strong></h4>
-            <p>Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam.</p>
-          </div>
-          <div class="col-md-3 col-sm-6 service"> <i class="fa fa-bullseye"></i>
-            <h4><strong>Marketing</strong></h4>
-            <p>Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque.</p>
-          </div>
-        </div>
-      </div>
-    </div>
     <!-- Portfolio Section -->
     <div id="works">
       <div class="container"> <!-- Container -->
@@ -166,7 +142,7 @@
           <h2>Welcome to the STRUCT group!</h2>
           <hr>
           <div class="clearfix"></div>
-          <p style="font-size: 20pt">
+          <p class="welcome-message">
               STRUCT group is in the Institute of Computer Science and Technology at Peking University.
               The group is devoted to theoretical studies and practical applications of image/video processing,
               multimedia communications, and computer vision. Current research activities of the lab include:
@@ -188,7 +164,7 @@
           </ul>
           <div class="clearfix"></div>
         </div>
-        <div class="row">
+        <div class="row hidden">
           <div class="portfolio-items">
             <div class="col-sm-6 col-md-3 col-lg-3 web">
               <div class="portfolio-item">
@@ -341,7 +317,7 @@
                 </div>
             </div>
     <!-- Team Section -->
-    <div id="team" class="text-center">
+    <div id="team" class="text-center hidden">
       <div class="container">
         <div class="section-title center">
           <h2>Meet the <strong>team</strong></h2>
@@ -416,69 +392,10 @@
       </div>
     </div>
 
-    <!-- Contact Section -->
-    <div id="contact" class="text-center hidden">
-      <div class="container">
-        <div class="section-title center">
-          <h2><strong>Contact</strong> us</h2>
-          <hr>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diamcommodo nibh ante facilisis.</p>
-        </div>
-        <div class="col-md-8 col-md-offset-2">
-          <div class="col-md-4"> <i class="fa fa-map-marker fa-2x"></i>
-            <p>321 Awesome Street<br>
-              New York, NY 17022</p>
-          </div>
-          <div class="col-md-4"> <i class="fa fa-envelope-o fa-2x"></i>
-            <p>info@companyname.com</p>
-          </div>
-          <div class="col-md-4"> <i class="fa fa-phone fa-2x"></i>
-            <p> +1 800 123 1234</p>
-          </div>
-          <hr>
-          <div class="clearfix"></div>
-        </div>
-        <div class="col-md-8 col-md-offset-2">
-          <hr>
-          <h3>Leave us a message</h3>
-          <form name="sentMessage" id="contactForm" novalidate>
-            <div class="row">
-              <div class="col-md-6">
-                <div class="form-group">
-                  <input type="text" id="name" class="form-control" placeholder="Name" required="required">
-                  <p class="help-block text-danger"></p>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="form-group">
-                  <input type="email" id="email" class="form-control" placeholder="Email" required="required">
-                  <p class="help-block text-danger"></p>
-                </div>
-              </div>
-            </div>
-            <div class="form-group">
-              <textarea name="message" id="message" class="form-control" rows="4" placeholder="Message" required></textarea>
-              <p class="help-block text-danger"></p>
-            </div>
-            <div id="success"></div>
-            <button type="submit" class="btn btn-default">Send Message</button>
-          </form>
-        </div>
-      </div>
-    </div>
-
     <nav id="footer">
       <div class="container">
-        <div class="pull-left fnav">
-          <p>Copyright &copy; 2015 Company Name All Rights Reserved. </p>
-        </div>
-        <div class="pull-right fnav">
-          <ul class="footer-social">
-            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-            <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-          </ul>
+        <div class="text-center fnav">
+          <p>Copyright © 2013 STRUCT.</p>
         </div>
       </div>
     </nav>

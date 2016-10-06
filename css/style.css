@@ -1,5 +1,17 @@
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('../fonts/OpenSans-Regular-webfont.eot');
+    src: url('../fonts/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/OpenSans-Regular-webfont.woff') format('woff'),
+    url('../fonts/OpenSans-Regular-webfont.ttf') format('truetype'),
+    url('../fonts/OpenSans-Regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 body, html {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'open_sansregular', sans-serif;
 	text-rendering: optimizeLegibility !important;
 	-webkit-font-smoothing: antialiased !important;
 	color: #555;
@@ -27,13 +39,13 @@ h5 {
 	line-height: 20px;
 }
 p {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'open_sansregular', sans-serif;
 }
 p.intro {
 	font-size: 16px;
 	margin: 12px 0 0;
 	line-height: 24px;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'open_sansregular', sans-serif;
 }
 a {
 	color: #fff;
@@ -631,7 +643,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 label {
 	font-size: 12px;
 	font-weight: 400;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'open_sansregular', sans-serif;
 	float: left;
 }
 #contact .form-control {
